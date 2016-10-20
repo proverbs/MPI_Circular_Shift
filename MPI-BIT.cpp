@@ -30,7 +30,7 @@ void getPQ(char* argv[]) {//读取p,q
 
 int main(int argc, char* argv[])
 {
-	// 反射格雷码方法
+	// 按二进制位传送方法
 	getPQ(argv);//读取p,q值, 2^p个处理器，移位q
 
 	int rank, processNum;
